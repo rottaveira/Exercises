@@ -6,7 +6,7 @@ namespace Exercises
     {
         public double EyeRadius { get; protected set; }
         public Tuple<double, double> EyePosition { get; protected set; }
-        public double AmountOfSnow { get; protected set; }
+       
 
         public bool IsInEyeOfTheStorm(Tuple<double, double> position)
         {
@@ -31,11 +31,12 @@ namespace Exercises
 
     public class SnowStorm : Storm
     {
+        public double AmountOfSnow { get; protected set; }
         public SnowStorm(double eyeRadius, Tuple<double, double> eyePosition, double amountOfSnow)
         {
             base.EyeRadius = eyeRadius;
             base.EyePosition = eyePosition;
-            base.AmountOfSnow = amountOfSnow;
+            AmountOfSnow = amountOfSnow;
         }
 
     }

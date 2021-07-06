@@ -5,7 +5,7 @@ using System.Linq;
 namespace Exercises
 {
     public class Friend
-    {
+    { 
         public string Email { get; private set; }
 
         public ICollection<Friend> Friends { get; private set; }
