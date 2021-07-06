@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alert.cs" />
     <Compile Include="EnumAccount.cs" />
     <Compile Include="Account.cs" />
     <Compile Include="Duplicates.cs" />

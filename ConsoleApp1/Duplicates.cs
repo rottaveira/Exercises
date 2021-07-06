@@ -14,10 +14,12 @@ namespace Exercises
 
         public static String removeDuplicates(String str)
         {
+            
+            /*Opcao 1*/
             bool[] seen = new bool[256];
             StringBuilder sb = new StringBuilder(seen.Length);
 
-            /*Opcao 1*/
+            
             for (int i = 0; i < str.Length; i++)
             {
                 char ch = str[i];
