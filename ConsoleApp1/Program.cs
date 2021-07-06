@@ -11,7 +11,7 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            Account.Run();
+            MergeNames.Run();
         }
 
 
