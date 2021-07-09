@@ -34,7 +34,8 @@ namespace Exercises
             {
                 listCredito.Push(function());
 
-                onSumChanged(listCredito.Sum());
+                loopState.Stop();
+                onSumChanged(listCredito.Sum()) ;
             });
 
             return listCredito.Sum();
