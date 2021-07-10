@@ -1,17 +1,18 @@
-﻿using System; 
+﻿using System;
 
 namespace Exercises
-{ 
-    public class Node
+{
+
+    public class TreeNode
     {
-        public class TreeNode
-        {
-            public int data { get; set; }
-            public TreeNode left { get; set; }
-            public TreeNode right { get; set; }
+        public int data { get; set; }
+        public TreeNode left { get; set; }
+        public TreeNode right { get; set; }
 
-        }
+    }
 
+    public class SumNodes
+    {
         public static TreeNode newNode(int data)
         {
             TreeNode node = new TreeNode();
@@ -48,7 +49,7 @@ namespace Exercises
             root.left.right = newNode(5);
             root.right.left = newNode(6);
             root.right.right = newNode(7);
-            root.right.left.right = newNode(8); 
+            root.right.left.right = newNode(8);
 
             int sum = TreeSum(root);
             Console.WriteLine("Sum of all the elements is: " + sum); //should be 36

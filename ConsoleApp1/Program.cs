@@ -11,7 +11,7 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            Friend.Run();
+            BinarySearchTree.Run();
         }
    
     } 
