@@ -6,7 +6,7 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            Example1.Run();
+            TwoSum.Run();
         }
    
     } 

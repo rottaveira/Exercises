@@ -88,19 +88,20 @@
     <Compile Include="Private\Sum.cs" />
     <Compile Include="Private\UniqueProduct.cs" />
     <Compile Include="Public\QuadraticEquation.cs" />
+    <Compile Include="Public\Song.cs" />
     <Compile Include="Public\TrainComposition.cs" />
     <Compile Include="Public\BinarySearchTree.cs" />
     <Compile Include="Public\SortedSearch.cs" />
     <Compile Include="Others\Others.cs" />
+    <Compile Include="Public\TwoSum.cs" />
+    <Compile Include="Public\UserInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Folder Include="Others\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
