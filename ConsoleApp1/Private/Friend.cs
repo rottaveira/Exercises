@@ -40,6 +40,27 @@ namespace Exercises
             return (closestFriend || friendOfFriend);
 
         }
-         
+
+
+        public static void Run()
+        {
+            /*Question 1*/
+            Friend a = new Friend("A");
+            Friend b = new Friend("B");
+            Friend c = new Friend("C");
+            Friend d = new Friend("D");
+            Friend e = new Friend("E");
+            Friend f = new Friend("F");
+            Friend g = new Friend("G");
+
+            a.AddFriendship(b);
+            b.AddFriendship(c);
+            c.AddFriendship(d);
+            d.AddFriendship(e);
+            e.AddFriendship(f);
+
+            var teste = f.CanBeConnected(a);
+            Console.WriteLine(a.CanBeConnected(c));
+        }
     }
 }
