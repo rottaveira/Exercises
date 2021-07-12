@@ -88,6 +88,9 @@
     <Compile Include="Private\Storm.cs" />
     <Compile Include="Private\Sum.cs" />
     <Compile Include="Private\UniqueProduct.cs" />
+    <Compile Include="Public\Song.cs" />
+    <Compile Include="Public\TwoSum.cs" />
+    <Compile Include="Public\UserInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
